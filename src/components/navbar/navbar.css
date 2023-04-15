@@ -10,8 +10,8 @@
 }
 
 .nav {
-    margin-right: 0.8em;
     display: flex;
-    gap: 10em;
+    gap:10em;
+    margin-right: 11em;
     flex-wrap: wrap;
 }

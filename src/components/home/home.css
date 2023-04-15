@@ -1,12 +1,14 @@
 .banner {
     width: 100%;
     min-height: 100vh;
-    
 }
 
 .banner-int {
     display: flex;
-    margin: auto;
+    justify-content: space-between;
+    margin-top: 4em;
+    margin-right: 10em;
+    gap: 10em;
 }
 
 .banner-img {
@@ -25,10 +27,8 @@
 .home-content {
     width: 40vw;
     max-width: 100%;
-    margin-right: 5em;
+    padding: 0.5em;
 }
-
-
 
 .home-content h2 {
     font-size: 2.80rem;

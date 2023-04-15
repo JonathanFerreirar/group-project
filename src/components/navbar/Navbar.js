@@ -3,27 +3,28 @@ import logo from "../../assets/navbar/logo.png";
 import home from "../../assets/navbar/home.png";
 import contact from "../../assets/navbar/contact.png";
 import service from "../../assets/navbar/service.png";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div>
       <div className="header">
         <div className="logo">
-          <a href={"/"}>
+          <Link to="/">
             <img src={logo} />
-          </a>
+          </Link>
           <p>Contec Contabilidade</p>
         </div>
         <div className="nav">
-          <a href={"/"}>
+          <Link to="/">
             <img src={home} className="home" alt="" />
-          </a>
-          <a href={"/service"}>
+          </Link>
+          <Link to="/service">
             <img src={service} alt="Service" />
-          </a>
-          <a href={"/contact"}>
+          </Link>
+          <Link to="/contact">
             <img src={contact} alt="Contact" />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

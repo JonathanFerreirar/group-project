@@ -8,9 +8,9 @@ function Home () {
         <div>     
             <div className="banner">
                 <div className="banner-int">
-                    <div className="banner-img">
-                        <img src={banner} alt='O chefe mostrando um gráfico em decadência para 2 funcionários'/>
-                    </div>
+                        <div className="banner-img">
+                            <img src={banner} alt='O chefe mostrando um gráfico em decadência para 2 funcionários'/>
+                        </div>
                     <div className="home-content">
                         <h2> Contec Contabilidade</h2>
                         <p>

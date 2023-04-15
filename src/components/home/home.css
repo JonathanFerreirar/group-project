@@ -1,14 +1,14 @@
 .banner {
     width: 100%;
     min-height: 100vh;
-    
 }
 
 .banner-int {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 4em;
-    gap: 7em;
+    margin-right: 10em;
+    gap: 10em;
 }
 
 .banner-img {

@@ -1,3 +1,5 @@
+import './service.css'
+
 function Service () {
 
 

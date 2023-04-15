@@ -11,7 +11,7 @@ function Home () {
                     <div className="banner-img">
                         <img src={banner} alt='O chefe mostrando um gráfico em decadência para 2 funcionários'/>
                     </div>
-                    <div className="banner-content">
+                    <div className="home-content">
                         <h2> Contec Contabilidade</h2>
                         <p>
                         <br/>A Contec Contabilidade tem orgulho de estar em operação há mais de 50 anos. Fundada pelo Sr. Olival Gonzaga, nosso escritório é uma referência em serviços contábeis confiáveis e de alta qualidade.

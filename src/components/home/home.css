@@ -1,0 +1,30 @@
+.banner {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.banner-int {
+    display: flex;
+    margin: auto;
+}
+
+.banner-img {
+    display: flex;
+    max-width: fit-content;
+    padding: 2em;
+}
+
+.banner-content {
+    width: 40vw;
+    margin-right: 5em;
+}
+
+.banner-content h2 {
+    font-size: 2.80rem;
+    font-weight: 400;
+}
+
+.banner-content p {
+    font-size: 1.1rem;
+    text-align: justify;
+}

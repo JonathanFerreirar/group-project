@@ -6,7 +6,9 @@
 
 .banner-int {
     display: flex;
-    margin: auto;
+    justify-content: center;
+    margin-top: 4em;
+    gap: 7em;
 }
 
 .banner-img {
@@ -25,10 +27,8 @@
 .home-content {
     width: 40vw;
     max-width: 100%;
-    margin-right: 5em;
+    padding: 0.5em;
 }
-
-
 
 .home-content h2 {
     font-size: 2.80rem;

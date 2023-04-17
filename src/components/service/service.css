@@ -1,0 +1,68 @@
+h2 {
+    font-weight: 300;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.services-left {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+
+.services-left-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-left img {
+    width: 327px;
+    height: 327px;
+}
+
+.btn-leao {
+    width: 304px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: var(--bg-color);
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.services-right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-rigth-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-right-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+}
+
+.service-right-card-content p {
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-align: center;
+}

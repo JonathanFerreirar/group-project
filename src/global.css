@@ -6,3 +6,9 @@
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
 }
+
+:root {
+    --color-black: #000;
+    --color-white: #fff;
+    --bg-color: #0687FE; 
+}

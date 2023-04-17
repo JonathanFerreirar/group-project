@@ -1,68 +1,192 @@
 h2 {
-    font-weight: 300;
-    font-size: 3rem;
-    text-align: center;
+  font-weight: 300;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .services {
-    display: flex;
-    align-items: center;
-    max-width: 1140px;
-    margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto 7em;
 }
 
 .services-left {
-    display: flex;
-    flex-direction: column;
-    width: 40vw;
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
 }
 
 .services-left-content {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .services-left img {
-    width: 327px;
-    height: 327px;
+  max-width: 100%;
+  width: 327px;
 }
 
 .btn-leao {
-    width: 304px;
-    height: 50px;
-    border-radius: 15px;
-    background-color: var(--bg-color);
-    color: white;
-    text-align: center;
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-top: 30px;
+  max-width: 100%;
+  width: 304px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: var(--bg-color);
+  color: white;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.btn-leao:hover {
+  cursor: pointer;
+}
+
+.btn-service {
+  max-width: 100%;
+  width: auto;
+  background: none;
+  border: none;
+}
+.btn-service:hover {
+  cursor: pointer;
 }
 
 .services-right {
-    display: flex;
-    flex-wrap: wrap;
-    width: 60vw;
-    gap: 50px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 700px;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
 .service-rigth-card {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
 }
 
 .service-right-card-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  width: 190px;
 }
 
 .service-right-card-content p {
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.btn-service img {
+  max-width: 100%;
+  width: 120px;
+}
+
+/*adding responsiveness */
+
+@media (max-width: 1200px) {
+  .btn-service img {
+    max-width: 100%;
+    width: 70px;
+  }
+  .service-right-card-content p {
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 0.7rem;
     text-align: center;
+  }
+  .btn-leao {
+    font-size: 0.7rem;
+  }
+  .services-right {
+    max-width: 100vw;
+    gap: 1px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .services {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto 1em;
+  }
+}
+
+@media (max-width: 800px) {
+  * {
+    overflow-y: visible;
+  }
+
+  .services {
+    display: block;
+  }
+  .services-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin: 80px auto;
+  }
+  .services-left-content {
+    margin-right: 90px;
+  }
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .services {
+    margin: auto 0em;
+  }
+  .btn-leao {
+    max-width: 100%;
+    width: 204px;
+    height: 40px;
+    font-size: 1.1rem;
+  }
+
+  .services-left img {
+    max-width: 100%;
+    width: 227px;
+  }
+  .btn-service img {
+    max-width: 100%;
+    width: 50px;
+  }
+  .service-right-card-content p {
+    font-weight: 600;
+    font-size: 0.4rem;
+    text-align: center;
+  }
+  .services-left-content {
+    margin-right: 10px;
+  }
+
+  .services-right {
+    max-width: 100vw;
+    gap: 1px;
+  }
+  .btn-service {
+    width: 120px;
+  }
+  .btn-service img {
+    max-width: 100%;
+    width: 50px;
+  }
+  .service-right-card-content p {
+    font-size: 0.7rem;
+    text-align: center;
+  }
 }

@@ -11,13 +11,13 @@ function Navbar() {
       <div className="header">
         <div className="logo">
           <Link to="/">
-            <img src={logo} />
+            <img src={logo} alt="Logo Contect Contabilidade" />
           </Link>
           <p>Contec Contabilidade</p>
         </div>
         <div className="nav">
           <Link to="/">
-            <img src={home} className="home" alt="" />
+            <img src={home} className="home" alt="Home" />
           </Link>
           <Link to="/service">
             <img src={service} alt="Service" />

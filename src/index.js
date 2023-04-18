@@ -8,6 +8,7 @@ import Contact from "./components/contact/Contact";
 import Home from "./components/home/Home";
 import Service from "./components/service/Service";
 import ErroPage from "./components/pageErro/pageErro";
+import ContentService from "./components/contentService/ContentService";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/service",
         element: <Service />,
+      },
+      {
+        path: "/contentService",
+        element: <ContentService />,
       },
     ],
   },

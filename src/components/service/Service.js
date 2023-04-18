@@ -6,6 +6,7 @@ import consultor from "../../assets/service/consultor.png";
 import empregada from "../../assets/service/empregada-domestica.png";
 import inss from "../../assets/service/inss-logo.png";
 import govbr from "../../assets/service/govbr-logo.png";
+import { Link } from "react-router-dom";
 
 function Service() {
   return (
@@ -15,10 +16,10 @@ function Service() {
         <div className="services-left">
           <div className="services-left-content">
             <img src={leao} alt="Leao" />
-            <button type="button" className="btn-leao">
+            <Link to={"/contentService"} className="btn-leao">
               {" "}
               Imposto de renda{" "}
-            </button>
+            </Link>
           </div>
         </div>
 

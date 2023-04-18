@@ -17,14 +17,13 @@ function Service() {
           <div className="services-left-content">
             <img src={leao} alt="Leao" />
             <Link to={"/contentService"} className="btn-leao">
-              {" "}
-              Imposto de renda{" "}
+              Imposto de renda
             </Link>
           </div>
         </div>
 
         <div className="services-right">
-          <div className="service-rigt-card">
+          <div className="service-rigth-card">
             <div className="service-right-card-content">
               <button type="button" className="btn-service">
                 <img src={govbr} alt="Gov.br" />

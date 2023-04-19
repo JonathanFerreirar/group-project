@@ -37,12 +37,13 @@
     gap: 2em;
     margin-right: 1em;
     flex-wrap: wrap;
+    align-items: center;
   }
   .nav img {
     width: 30px;
   }
   .logo img {
-    width: 650px;
+    width: 50px;
   }
 }
 @media (max-width: 500px) {

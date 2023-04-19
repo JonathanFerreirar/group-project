@@ -26,9 +26,9 @@ function Navbar() {
           <Link to="/contact">
             <img src={contact} alt="Contact" />
           </Link>
-          <Link to="/noticia"> 
-          <img src={noticia} alt="Noticia" />
-        </Link>
+          <Link to="??">
+            <img src={noticia} alt="Noticia" />
+          </Link>
         </div>
       </div>
     </div>

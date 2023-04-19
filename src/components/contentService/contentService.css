@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 150px;
+}
+.image img{
+  width: 500px;
+  max-width: 100%;
+  
+  
+}
+.mainText {
+   text-align: justify;
+    width: 400px;
+    font-size: 20px;
+}
+
+/*adding responsiveness */
+
+/* @media (max-width: 1200px) {
+
+}
+
+@media (max-width: 800px) {
+  * {
+    overflow-y: visible;
+  }
+
+  .services {
+    display: block;
+  }
+
+}
+
+@media (max-width: 500px) {
+ 
+} */

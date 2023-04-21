@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 
 function News() {
   const [news, setNews] = useState([]);
+  const [load, setLoad] = useState(true);
 
   useEffect(() => {
     const options = {
@@ -23,6 +24,7 @@ function News() {
         const responJson = await response.json();
 
         setNews(responJson.value);
+        setLoad(false);
       } catch (err) {
         console.log("Erro: " + err);
       }
@@ -30,7 +32,18 @@ function News() {
     fetchData();
   }, []);
 
-  console.log(news);
+  if (load === true) {
+    return (
+      <div className="centerLoad">
+        <div className="lds-ring">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="news">

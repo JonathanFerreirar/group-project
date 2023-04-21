@@ -16,7 +16,7 @@ function Service() {
         <div className="services-left">
           <div className="services-left-content">
             <img src={leao} alt="Leao" />
-            <Link to={"/contentService"} className="btn-leao">
+            <Link to={"/contentService/0"} className="btn-leao">
               Imposto de renda
             </Link>
           </div>
@@ -25,55 +25,55 @@ function Service() {
         <div className="services-right">
           <div className="service-rigth-card">
             <div className="service-right-card-content">
-              <button type="button" className="btn-service">
+              <Link to={"/contentService/1"} className="btn-service">
                 <img src={govbr} alt="Gov.br" />
                 <p> Assessoria MEI </p>
-              </button>
+              </Link>
             </div>
           </div>
 
           <div className="service-rigth-card">
             <div className="service-right-card-content">
-              <button type="button" className="btn-service">
+              <Link to={"/contentService/2"} className="btn-service">
                 <img src={empregada} alt="Domestica" />
                 <p> eSocial Doméstica </p>
-              </button>
+              </Link>
             </div>
           </div>
 
           <div className="service-rigth-card">
             <div className="service-right-card-content">
-              <button type="button" className="btn-service">
+              <Link to={"/contentService/3"} className="btn-service">
                 <img src={alterar} alt="Alteracao" />
                 <p> Abertura, Alteração e baixa </p>
-              </button>
+              </Link>
             </div>
           </div>
 
           <div className="service-rigth-card">
             <div className="service-right-card-content">
-              <button type="button" className="btn-service">
+              <Link to={"/contentService/4"} className="btn-service">
                 <img src={consultando} alt="Consultando" />
                 <p> Consultoria </p>
-              </button>
+              </Link>
             </div>
           </div>
 
           <div className="service-rigth-card">
             <div className="service-right-card-content">
-              <button type="button" className="btn-service">
+              <Link to={"/contentService/5"} className="btn-service">
                 <img src={consultor} alt="Consultor" />
                 <p> Planejamento Tributário </p>
-              </button>
+              </Link>
             </div>
           </div>
 
           <div className="service-rigth-card">
             <div className="service-right-card-content">
-              <button type="button" className="btn-service">
+              <Link to={"/contentService/6"} className="btn-service">
                 <img src={inss} alt="INSS" />
                 <p> INSS </p>
-              </button>
+              </Link>
             </div>
           </div>
         </div>

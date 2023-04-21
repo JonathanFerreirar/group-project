@@ -7,8 +7,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Contact from "./components/contact/Contact";
 import Home from "./components/home/Home";
 import Service from "./components/service/Service";
-import ErroPage from "./components/pageErro/pageErro";
+import News from "./components/news/news";
 import ContentService from "./components/contentService/ContentService";
+import ErroPage from "./components/pageErro/pageErro";
 
 const router = createBrowserRouter([
   {
@@ -32,15 +33,19 @@ const router = createBrowserRouter([
         path: "/contentService",
         element: <ContentService />,
       },
+      {
+        path: "/news",
+        element: <News />,
+      },
     ],
   },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+  // <React.StrictMode>
+  <RouterProvider router={router} />
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

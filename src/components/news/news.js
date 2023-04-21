@@ -49,12 +49,14 @@ function News() {
     <div className="news">
       {news.map((value, index) => {
         return (
-          <div key={index}>
-            <h1>{value.name}</h1>
-
-            <h3>{value.description}</h3>
+          <div key={index} className="news-content">
             <a href={value.url} target="_blank" rel="noreferrer">
-              https://www.msn.com/pt-br/noticias/brasil
+              <div className="news-contents-title">
+                <h1>{value.name}</h1>
+              </div>
+              <div className="news-content-description">
+                <h3>{value.description}</h3>
+              </div>
             </a>
           </div>
         );

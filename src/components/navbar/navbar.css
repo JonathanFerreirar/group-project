@@ -31,7 +31,7 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 830px) {
   .nav {
     display: flex;
     gap: 2em;
@@ -46,10 +46,13 @@
     width: 50px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 550px) {
+  .logo p {
+    font-size: 13px;
+  }
   .nav {
     display: flex;
-    gap: 1em;
+    gap: 10px;
     margin-right: 1em;
     flex-wrap: wrap;
   }

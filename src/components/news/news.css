@@ -1,0 +1,11 @@
+.news {
+  width: 60vw;
+  /* height: max-content; */
+}
+* {
+  overflow-y: auto;
+}
+
+p {
+  font-size: 20px;
+}

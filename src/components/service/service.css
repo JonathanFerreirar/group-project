@@ -9,6 +9,7 @@ h2 {
   align-items: center;
   justify-content: space-around;
   margin: auto 7em;
+  margin-bottom: 90px;
 }
 
 .services-left {
@@ -89,13 +90,17 @@ h2 {
 }
 
 .btn-service img {
+  width: 150px;
   max-width: 100%;
-  width: auto;
 }
 
 /*adding responsiveness */
 
 @media (max-width: 1200px) {
+  .btn-service {
+    text-align: center;
+    width: 100px;
+  }
   .btn-service img {
     max-width: 100%;
     width: 70px;
@@ -127,11 +132,21 @@ h2 {
   .services {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .services-left {
     display: flex;
     width: 100vw;
     margin: 80px auto;
+  }
+  .service-right-card-content {
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-service {
+    text-align: center;
+    width: 100px;
   }
 }
 
@@ -183,7 +198,7 @@ h2 {
   }
 }
 
-@media (max-height: 800px) {
+/* @media (max-height: 800px) {
   h2 {
     font-weight: 300;
     font-size: 2rem;
@@ -229,4 +244,4 @@ h2 {
     font-size: 0.9rem;
     text-align: center;
   }
-}
+} */

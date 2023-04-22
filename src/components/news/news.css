@@ -6,9 +6,9 @@
   width: 1140px;
   max-width: 100%;
   margin: auto;
+  margin-bottom: 20px;
   height: 100%;
   /* height: max-content; */
-  
 }
 
 .news-content {
@@ -19,7 +19,7 @@
 }
 
 .news-content:hover {
-  box-shadow: 3px 5px 3px rgb(0, 0, 0 , 0.4);
+  box-shadow: 3px 5px 3px rgb(0, 0, 0, 0.4);
 }
 
 .news-content-title {
@@ -40,9 +40,7 @@
   margin: 0 10px;
 }
 
-
 @media (min-width: 300px) and (max-width: 500px) {
-  
   .news-content {
     border-radius: 20px;
   }

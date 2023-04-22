@@ -23,3 +23,60 @@ a {
     overflow-y: visible;
   }
 }
+
+/* Footer css */
+
+.container-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 100vw;
+  margin: 80px auto;
+}
+
+.container-footer img {
+  width: 50px;
+}
+
+.container-img-zap {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.container-texto-ramal {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+/*adding responsiveness */
+
+@media (max-width: 1200px) {
+  .container-footer img {
+    width: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container-footer {
+    font-size: 15px;
+    gap: 8px;
+  }
+  .container-footer img {
+    width: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container-footer {
+    font-size: 12px;
+  }
+  .container-footer img {
+    width: 20px;
+  }
+  .container-texto-ramal {
+    display: none;
+  }
+}

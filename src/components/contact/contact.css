@@ -116,7 +116,9 @@
   .contact {
     width: 100vw;
   }
-
+  .contact-social {
+    margin: 10px;
+  }
   .contact-footer {
     padding-left: 10px;
   }

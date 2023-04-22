@@ -1,0 +1,54 @@
+.error{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.error-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.error-btn img{
+    position:absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+   
+}
+
+/*adding responsiveness */
+
+@media (max-width: 1200px) {
+    .error{
+      width: 100vw;
+    }
+    
+    h1{
+       font-size: 1.2rem;
+    }
+    
+
+    .error-btn img{
+        position:absolute;
+        bottom: 0;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+  }
+  
+  @media (max-width: 830px) {
+    * {
+      overflow-y: visible;
+    }
+  }
+  
+  @media (max-width: 500px) {
+   
+  }
+  

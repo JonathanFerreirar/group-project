@@ -6,6 +6,8 @@ import consultor from "../../assets/service/consultor.png";
 import empregada from "../../assets/service/empregada-domestica.png";
 import inss from "../../assets/service/inss-logo.png";
 import govbr from "../../assets/service/govbr-logo.png";
+import contate from "../../assets/service/contate-nos_1.png";
+import whatsapp from "../../assets/service/whatsapp_1.png";
 
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
@@ -14,6 +16,8 @@ function ContentService() {
   const { id } = useParams();
   const [text, setText] = useState("");
   const [image, setImage] = useState();
+  const [ramal, setRamal] = useState("luiz");
+  console.log(id);
 
   useEffect(() => {
     switch (id) {
@@ -22,6 +26,7 @@ function ContentService() {
           "O Imposto de Renda é uma obrigação tributária anual que incide sobre os rendimentos das pessoas físicas e jurídicas. Para tornar esse processo mais simples e tranquilo, nossa equipe de especialistas em contabilidade está preparada para cuidar de todas as etapas do seu Imposto de Renda, garantindo conformidade com a legislação vigente, deduções e benefícios fiscais. Não deixe para a última hora, agende sua consulta conosco e fique em dia com suas obrigações fiscais."
         );
         setImage(leao);
+        setRamal("jonathan");
         break;
 
       case "1":
@@ -64,18 +69,31 @@ function ContentService() {
           "O INSS é de extrema importância para a garantia da proteção social dos trabalhadores brasileiros. Ele oferece diversos benefícios que ajudam a garantir a subsistência das pessoas em momentos de dificuldade, como aposentadoria, auxílio-doença, pensão por morte, entre outros. Além disso, o INSS também atua na prevenção de acidentes de trabalho e na promoção da saúde ocupacional. Sem a existência do INSS, muitas pessoas ficariam desamparadas e sem nenhuma fonte de renda em situações de risco ou vulnerabilidade, o que torna sua atuação essencial para a proteção e bem-estar da população."
         );
         setImage(inss);
+        setRamal("marcos");
         break;
     }
   }, [id]);
 
   return (
     <div className="container">
-      <div className="image">
-        <img src={image} alt="imagem relativa ao serviço" />
-      </div>
+      <div className="container-content">
+        <div className="image">
+          <img src={image} alt="imagem relativa ao serviço" />
+        </div>
 
-      <div className="contentText">
-        <p className="mainText">{text}</p>
+        <div className="content-Text">
+          <p className="mainText">{text}</p>
+        </div>
+      </div>
+      <div className="container-footer">
+        <div className="container-img-zap">
+          <img src={whatsapp} />
+          <p>(31) 9 8874-0239</p>
+        </div>
+        <div className="container-texto-ramal">
+          <img src={contate} />
+          <p>{ramal}</p>
+        </div>
       </div>
     </div>
   );

@@ -1,39 +1,67 @@
 .container {
   display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  
+}
+
+.container-content {
+  display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 150px;
-  max-width: 100%;
+  
 }
 
-.contentText {
+.content-Text{
+  width: 450px;
   max-width: 100%;
-  width: 800px;
-}
-
-.image img {
-  width: 300px;
-  max-width: 100%;
-}
-.mainText {
   text-align: justify;
-  width: 800px;
   font-size: 20px;
+
 }
+
+.container-footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  margin-bottom: 15px;
+
+}
+
+.container-footer img{
+  width: 50px;
+}
+
+.container-img-zap{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.container-texto-ramal{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+
 
 /*adding responsiveness */
 
 @media (max-width: 1200px) {
-  .contentText {
+  .content-Text {
     max-width: 100%;
     width: 800px;
-    margin: 0 25px;
+    padding: 0 25px; 
   }
 
   .image img {
-    width: 200px;
+    width: 400px;
     max-width: 100%;
-    margin: 0 25px;
+    padding: 0 25px; 
   }
   .mainText {
     text-align: justify;
@@ -41,25 +69,39 @@
     width: 800px;
     font-size: 16px;
   }
+  .container-footer img{
+    width: 40px;
+  }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 800px) {
   * {
     overflow-y: visible;
   }
 
-  .container {
+  .container-content {
     display: block;
   }
   .image {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
   }
+  .mainText {
+    font-size: 16px;
+}
+.container-footer{
+font-size: 15px;
+gap: 8px;
+ }
+.container-footer img{
+  width: 30px;
+}
 }
 
-@media (max-width: 500px) {
-  .container {
+@media (max-width: 600px) {
+  .container-content {
     display: block;
   }
   .image {
@@ -76,15 +118,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 20px;
+     padding: 0 20px; 
 
     margin-top: 50px;
     text-align: justify;
 
-    width: 800px;
-    max-width: 87vw;
+    width: 700px;
+    max-width: 100%;
     font-size: 15px;
 
     margin-bottom: 100px;
   }
+  .container-footer{
+    font-size: 12px;
+    gap: 4px;
+    
+     }
+     .container-footer img{
+      width: 20px;
+    }
 }

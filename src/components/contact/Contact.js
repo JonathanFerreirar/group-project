@@ -9,15 +9,15 @@ function Contact() {
       <div className="contact">
         <div className="contact-social">
           <img src={email} alt="Email" />
-          <p>jonathan@contecbh.com.br</p>
+          <p>ficticio@contecbh.com.br</p>
         </div>
         <div className="contact-social">
           <img src={whatsapp} alt="Whatsapp" />
-          <p>WhatsApp: (31) 9 8874-0239</p>
+          <p>WhatsApp: (00) 0 0000-0000</p>
         </div>
         <div className="contact-social">
           <img src={telefone} alt="Telefone Fixo" />
-          <p>Fixo: (31) 3222-9924</p>
+          <p>Fixo: (00) 0000-0000</p>
         </div>
       </div>
       <div className="subject">
@@ -34,13 +34,11 @@ function Contact() {
             <p>Abertura</p>
           </div>
           <div className="contact-subject" id="contact-subject-right">
-            <p>
-              Matheus ramal (212), Jonathan ramal (218) e Tassio ramal (211)
-            </p>
-            <p>Vania ramal (206), Gustavo ramal (203) e Alan ramal (216)</p>
-            <p>Yago ramal (217)</p>
-            <p>Alexandra ramal (215), ramal (211)</p>
-            <p>Alexandra ramal (202)</p>
+            <p>Jonathan ramal (000), Marcos ramal (000) e Luiz ramal (000)</p>
+            <p>Alana ramal (000), Marcos ramal (000) e Luiz ramal (000)</p>
+            <p>Marcos ramal (000)</p>
+            <p>Alana ramal (000), ramal (000)</p>
+            <p>Luiz ramal (000)</p>
           </div>
         </div>
       </div>

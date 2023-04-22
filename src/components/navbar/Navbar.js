@@ -12,9 +12,9 @@ function Navbar() {
       <div className="header">
         <div className="logo">
           <Link to="/">
-            <img src={logo} alt="Logo Contect Contabilidade" />
+            <img src={logo} alt="Logo Contabil Contabilidade" />
           </Link>
-          <p>Contec Contabilidade</p>
+          <p>Contabil Contabilidade</p>
         </div>
         <div className="nav">
           <Link to="/">

@@ -9,14 +9,14 @@ function Footer() {
       <div className="container-footer">
         <div className="container-img-zap">
           <a
-            href="https://wa.me/5531988740239"
+            href="https://wa.me/5531984322801"
             target="_blank"
             rel="noreferrer"
           >
             <img src={whatsapp} alt="Link para WhatsApp" />
           </a>
 
-          <p>(31) 9 8874-0239</p>
+          <p>(00) 0 0000-0000</p>
         </div>
         <div className="container-img-zap">
           <Link to={"/"}>
@@ -25,7 +25,7 @@ function Footer() {
         </div>
         <div className="container-texto-ramal">
           <img src={contate} alt="Imagem de telefone" />
-          <p>(31) 3222-9924</p>
+          <p>(00) 0000-0000</p>
         </div>
       </div>
     </div>

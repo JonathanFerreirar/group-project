@@ -13,11 +13,12 @@ function Home() {
             />
           </div>
           <div className="home-content">
-            <h2> Contec Contabilidade</h2>
+            <h2>Contabil Contabilidade</h2>
             <p>
-              A Contec Contabilidade tem orgulho de estar em operação há mais de
-              50 anos. Fundada pelo Sr. Olival Gonzaga, nosso escritório é uma
-              referência em serviços contábeis confiáveis e de alta qualidade.
+              A Contabil Contabilidade tem orgulho de estar em operação há mais
+              de 50 anos. Fundada pelo Sr. Contabil Gonzaga, nosso escritório é
+              uma referência em serviços contábeis confiáveis e de alta
+              qualidade.
             </p>
             <p>
               <span />
@@ -30,7 +31,7 @@ function Home() {
             </p>
             <p>
               <span />
-              Na Contec Contabilidade, levamos a sério nosso compromisso com a
+              Na Contabil Contabilidade, levamos a sério nosso compromisso com a
               excelência e a ética. Trabalhamos de perto com nossos clientes
               para entender suas necessidades e fornecer soluções personalizadas
               para atender às suas necessidades específicas.

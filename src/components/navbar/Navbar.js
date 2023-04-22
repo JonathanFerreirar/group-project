@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div>
+    <div className="Navbar">
       <div className="header">
         <div className="logo">
           <Link to="/">

@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 function Service() {
   return (
-    <div>
+    <div className="Service">
       <h2> Nossos serviços </h2>
       <div className="services">
         <div className="services-left">

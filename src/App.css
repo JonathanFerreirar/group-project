@@ -1,4 +1,9 @@
-.App {
-  text-align: center;
+.Home {
+  min-height: 66vh;
 }
-
+.Service {
+  min-height: 66vh;
+}
+.Contact {
+  min-height: 66vh;
+}
